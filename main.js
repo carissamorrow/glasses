@@ -6,14 +6,19 @@ let glasses = {
 let frame = {
   color: "tan",
   weight: "light",
-  texture: "smooth"
+  bridge: "narrow",
+  texture: "smooth",
+  screws: "two"
 }
 let lenses = {
   clarity: "clear",
-  tint: "none"
+  tint: "none",
+  texture: "plastic"
 }
-let glasses = {
-  frame,
-  lenses
+let fit = {
+  name: "frame movement",
+  function: "collapses and opens sides"
 }
-console.log(glasses.frame)
+
+console.log(glasses.size)
+console.log(frame.color)
